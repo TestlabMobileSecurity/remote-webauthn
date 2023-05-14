@@ -1,7 +1,18 @@
 # Remote WebAuthn
-`Remote WebAuthn` is a WebSocket-based open-source protocol, that allows wireless `FIDO2` authentication on remote devices. In contrast to competing approaches, `Remote WebAuthn` does not require prior pairing and is hence also suited for temporary applications like kiosk terminals.
+*Remote WebAuthn* is a WebSocket-based open-source protocol that allows wireless FIDO2 authentication on remote devices. In contrast to competing approaches, *Remote WebAuthn* does not require prior pairing and is hence also suited for temporary applications like kiosk terminals.
 
-The initial code version was implemented as part of the bachelors thesis *FIDO2-based Remote Authentication with Mobile Devices* at Fraunhofer SIT.
+This repository contains a reference implementation following the architecture proposed in the paper "[Remote WebAuthn: FIDO2 Authentication for Less Accessible Devices](https://www.scitepress.org/PublishedPapers/2021/101927/101927.pdf)". The initial code version was implemented as part of the bachelor's thesis "FIDO2-based Remote Authentication with Mobile Devices" at Fraunhofer SIT.
+
+## Citation
+```
+@inproceedings{wagner2021remote,
+  title={Remote WebAuthn: FIDO2 Authentication for Less Accessible Devices.},
+  author={Wagner, Paul and Heid, Kris and Heider, Jens},
+  booktitle={ICISSP},
+  pages={368--375},
+  year={2021}
+}
+```
 
 ## Component Overview
 | Component              | Language            | Subdirectory              |
